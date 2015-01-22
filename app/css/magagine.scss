@@ -1,0 +1,26 @@
+body {
+  background-color: #ccc;
+}
+
+#scroll-pane {
+  background-color: transparent;
+}
+
+#magazine {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 333px;
+}
+
+#magazine > div {
+  position: fixed;
+  background-attachment: fixed;
+  background-size:100% 100%;
+}
+
+#magazine .turn-page {
+  background-color: #ccc;
+  background-size: 100% 100%;
+}
